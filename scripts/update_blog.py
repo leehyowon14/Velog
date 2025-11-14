@@ -30,7 +30,7 @@ for entry in feed.entries:
     file_name = file_name.replace('/', '-')  # 슬래시를 대시로 대체
     file_name = file_name.replace('\\', '-')  # 백슬래시를 대시로 대체
     # 필요에 따라 추가 문자 대체
-    file_name += '.md'
+    file_name += '.html'
     file_path = os.path.join(posts_dir, file_name)
 
     # 파일이 이미 존재하지 않으면 생성
